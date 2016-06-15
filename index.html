@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bucket List</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="bundle.js"></script>
+</head>
+<body>
+  <h1>Bucket List Countries</h1>
+
+      <select id="country-select">
+        <!-- To be filled procedurally by JS -->
+      </select>
+
+    <form id="add-country" method="post">
+      <input readonly type="text" placeholder="Country Name" id="name">
+      <input readonly type="text" placeholder="Capital" id="capital">
+      <input readonly type="number" placeholder="Population" id="population">
+      <input readonly type="text" placeholder="Region" id="region">
+      <input type="submit" id="submit">
+    </form>
+
+
+    <!-- <ul id="country-info">
+      To be filled procedurally by JS
+    </ul> -->
+
+    <div id="map">
+    </div>
+
+</body>
+</html>

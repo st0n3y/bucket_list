@@ -1,0 +1,19 @@
+#map {
+  width: 400px;
+  height: 400px;
+  margin: 50px -100px 50px 50px;
+  border: 5px solid black;
+  border-radius: 30%;
+}
+
+body {
+  background-image: url("http://www1.rosiesworld.co.nz/images/16August2013/12168_BlogImages_Hoofgliding.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px 700px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: 'Anton', sans-serif;
+  color: #FF4000;
+}
